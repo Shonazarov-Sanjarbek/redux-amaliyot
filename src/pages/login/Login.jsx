@@ -57,7 +57,7 @@ const Login = () => {
           },
         ]}
       >
-        <Input className="bg-gray-700 text-black border-none focus:ring-2 focus:ring-blue-500 rounded-md" />
+        <Input className="bg-gray-500 text-black border-none focus:ring-2 focus:ring-blue-500 rounded-md" />
       </Form.Item>
 
       <Form.Item
@@ -70,7 +70,7 @@ const Login = () => {
           },
         ]}
       >
-        <Input.Password className="bg-gray-700 text-black border-none focus:ring-2 focus:ring-blue-500 rounded-md" />
+        <Input.Password className="bg-gray-500 text-black border-none focus:ring-2 focus:ring-blue-500 rounded-md" />
       </Form.Item>
 
       <Form.Item>
