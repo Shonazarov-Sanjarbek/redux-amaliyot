@@ -23,7 +23,6 @@ const Header = () => {
     <>
     <div className="bg-black text-white">
   <div className="container mx-auto px-4">
-    {/* Navbar */}
     <div className="flex items-center justify-between py-5">
       <Link to={"/"}>
         <img
@@ -33,7 +32,6 @@ const Header = () => {
         />
       </Link>
 
-      {/* Menu - Large Screens */}
       <div className="hidden lg:flex items-center gap-6">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1">
@@ -63,13 +61,11 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Menu Icon - Mobile */}
       <div onClick={toggleMenu} className="lg:hidden text-[24px] cursor-pointer">
         <RiMenu2Fill />
       </div>
     </div>
 
-    {/* Mobile Menu */}
     <div
       className={`${
         isMenuOpen ? "block" : "hidden"
